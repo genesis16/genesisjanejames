@@ -19,12 +19,12 @@ CREATE TABLE `z6y0_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `z6y0_revisr` WRITE;
 /*!40000 ALTER TABLE `z6y0_revisr` DISABLE KEYS */;
-INSERT INTO `z6y0_revisr` VALUES (1,'2020-07-13 02:13:09','Successfully created a new repository.','init','jane james');
+INSERT INTO `z6y0_revisr` VALUES (1,'2020-07-13 02:13:09','Successfully created a new repository.','init','jane james'),(2,'2020-07-13 02:15:30','Successfully backed up the database.','backup','jane james'),(3,'2020-07-13 02:15:30','Committed <a href=\"http://jane-james.com.au/blog/wp-admin/admin.php?page=revisr_view_commit&commit=bb4bc27&success=true\">#bb4bc27</a> to the local repository.','commit','jane james'),(4,'2020-07-13 02:15:30','Successfully backed up the database.','backup','jane james'),(5,'2020-07-13 02:15:30','Committed <a href=\"http://jane-james.com.au/blog/wp-admin/admin.php?page=revisr_view_commit&commit=ab1b66c&success=true\">#ab1b66c</a> to the local repository.','commit','jane james'),(6,'2020-07-13 02:15:30','Error pushing changes to the remote repository.','error','jane james'),(7,'2020-07-13 02:15:31','Error pushing changes to the remote repository.','error','jane james');
 /*!40000 ALTER TABLE `z6y0_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
