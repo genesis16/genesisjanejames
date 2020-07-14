@@ -16,6 +16,9 @@
     		top: 32px;
     	}
 	}
+		.wp-custom-logo .title-area img {
+    width: 50% !important;
+}
 }
 
 /* Title Area
@@ -25,12 +28,13 @@
 	float: left;
 	padding-bottom: 25px;
 	padding-top: 25px;
+	margin-left: 50px;
 
 	.wp-custom-logo & {
 		max-width: 350px;
 		padding-bottom: 5px;
 		padding-top: 5px;
-		width: 100%;
+		width: 50%;
 	}
 
 	.wp-custom-logo & img {
@@ -62,3 +66,4 @@
 	width: 1px;
 	word-wrap: normal !important;
 }
+

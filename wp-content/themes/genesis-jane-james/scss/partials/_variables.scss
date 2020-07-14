@@ -1,22 +1,23 @@
-// Base Colors
+// Sample base Colors
 $black: #000;
 $dark-gray: #333;
 $med-gray: #777;
 $med-light-gray: #999;
-$light-gray: #f5f5f5;
+$light-gray: #ddd;
+$lighter-gray: #eee;
+$lightest-gray: #f5f5f5;
+$blue: #0073e5;
+$white: #fff;
+//Gensis Jane James base colors 
 $light-blue: #8F98E2;
 $burnt-yellow: #e4ba42;
 $hero-blue: #383498;
 $square-blue: #404aa3;
 $section-blue: #2a3279; 
-$lighter-gray: #eee;
-$lightest-gray: #f5f5f5;
-$blue: #0073e5;
-$white: #fff;
 $navy: #0e1b4a;
 
 // Base Fonts
-$base-font: "Poppins", sans-serif;
+$base-font: "poppins", sans-serif;
 
 // Screen widths
 $small-screen-width: 480px;
@@ -49,7 +50,7 @@ $featured-content__entry-title--font-size: 16px;
 $enews-widget__input--font-size: 16px;
 $wpforms-widget__field-sublabel--font-size: 14px;
 $site-title--font-size: 20px;
-$genesis-nav-menu--font-size: 18px;
+$genesis-nav-menu--font-size: 15px;
 $genesis-nav-menu__sub-menu__link--font-size: 14px;
 $sidebar--font-size: 16px;
 $entry-content__caption--font-size: 14px;
@@ -87,9 +88,10 @@ $button--font-color: $white;
 $button--font-color-hover: $white;
 $entry-title__link--font-color: $dark-gray;
 $entry-title__link--font-color-hover: $blue;
-$site-title__link--font-color: $light-blue;
-$genesis-nav-menu--font-color: $white;
+$site-title__link--font-color: $dark-gray;
+$genesis-nav-menu--font-color: $dark-gray;
 $genesis-nav-menu--font-color-hover: $blue;
+$genesis-nav-menu__sub-menu__link--font-color-hover: $blue;
 $menu-toggle--font-color: $dark-gray;
 $menu-toggle--font-color-hover: $blue;
 $menu-highlight__link--font-color: $white;

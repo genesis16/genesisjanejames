@@ -280,6 +280,15 @@
 	}
 }
 
+/* Block figures 
+----------------------------------------------------------------------------*/
+wp-block-gallery .blocks-gallery-item figure {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 40px;
+}
+
 /* Latest Posts Block
 ---------------------------------------------------------------------------- */
 

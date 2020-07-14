@@ -1,21 +1,16 @@
 /*
-Theme Name: Genesis jane james
-Theme URI: www.alphaomegadigital.com.au
-Description: custom genesis theme
-Author: Jane James
-Author URI: alphaomegadigital.com.au
-
-Version: 1.0
-
-Tags: accessibility-ready, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, left-sidebar, one-column, right-sidebar, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, two-columns, wide-blocks
-
-Template: genesis
-
-License: GPL-2.0-or-later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-Text Domain: genesis-jane-james
-*/
+ Theme Name: Genesis jane james
+ Theme URI: www.alphaomegadigital.com.au
+ Description: custom genesis theme
+ Author: Jane James
+ Author URI: alphaomegadigital.com.au
+ Version: 1.0
+ Tags: accessibility-ready, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, left-sidebar, one-column, right-sidebar, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, two-columns, wide-blocks
+ Template: genesis
+ License: GPL-2.0-or-later
+ License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: genesis-jane-james
+ */
 /* Table of Contents
  - HTML5 Reset
  - Baseline Normalize
@@ -233,7 +228,7 @@ html {
 body {
   background-color: #fff;
   color: #333;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.625;
@@ -286,13 +281,13 @@ blockquote {
 /* Headings
  --------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   margin: 0 0 20px;
 }
 h1 {
-  font-size: 30px;
+  font-size: 49px;
 }
 h2 {
   font-size: 27px;
@@ -895,7 +890,7 @@ a.alignright, img.alignright, .wp-caption.alignright {
 /* Site Header
  ---------------------------------------------------------------------------- */
 .site-header {
-  background-color: #fff;
+  background-color: #0e1b4a;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   padding: 0 30px;
 }
@@ -910,18 +905,22 @@ a.alignright, img.alignright, .wp-caption.alignright {
     top: 32px;
   }
 }
+.site-header .wp-custom-logo .title-area img {
+  width: 50% !important;
+}
 /* Title Area
  --------------------------------------------- */
 .title-area {
   float: left;
   padding-bottom: 25px;
   padding-top: 25px;
+  margin-left: 50px;
 }
 .wp-custom-logo .title-area {
   max-width: 350px;
   padding-bottom: 5px;
   padding-top: 5px;
-  width: 100%;
+  width: 50%;
 }
 .wp-custom-logo .title-area img {
   width: auto;
