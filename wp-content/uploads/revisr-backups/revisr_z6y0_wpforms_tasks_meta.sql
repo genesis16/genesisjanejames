@@ -18,12 +18,12 @@ CREATE TABLE `z6y0_wpforms_tasks_meta` (
   `data` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
   `date` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `z6y0_wpforms_tasks_meta` WRITE;
 /*!40000 ALTER TABLE `z6y0_wpforms_tasks_meta` DISABLE KEYS */;
-INSERT INTO `z6y0_wpforms_tasks_meta` VALUES (1,'wpforms_process_entry_emails_meta_cleanup','Wzg2NDAwXQ==','2020-07-13 00:24:31'),(2,'wpforms_admin_notifications_update','W10=','2020-07-13 00:24:59');
+INSERT INTO `z6y0_wpforms_tasks_meta` VALUES (1,'wpforms_process_entry_emails_meta_cleanup','Wzg2NDAwXQ==','2020-07-13 00:24:31'),(2,'wpforms_admin_notifications_update','W10=','2020-07-13 00:24:59'),(3,'wpforms_admin_notifications_update','W10=','2020-07-14 23:45:17');
 /*!40000 ALTER TABLE `z6y0_wpforms_tasks_meta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
